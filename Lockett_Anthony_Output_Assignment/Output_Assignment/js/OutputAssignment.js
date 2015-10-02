@@ -21,6 +21,6 @@ console.log("The year I was born was" + " " + yearofbirth)// My console output s
 console.log("My favorite NFL team is the" + ' ' + favteam + ".")// My console output showing the string variable.
 console.log("Will the Saints lose the NFC South division? This answer is" + " " + losesouth + " " + "my friend!")// My console output showing the first boolean variable.
 console.log("The Saints win the Super Bowl! This is a" + " " + superbowl + " " + "statement & every Saints' fan knows this!")// My console output showing the second boolean variable.
-console.log("The Saints are currently " + record + ".")
-console.log("My daily driver is a " + driver + ".")
-console.log("My preferred gaming platform is the " + platform + ".")
+console.log("The Saints are currently " + record + ".")// My console output showing the string variable.
+console.log("My daily driver is a " + driver + ".")// My console output showing the string variable.
+console.log("My preferred gaming platform is the " + platform + ".")// My console output showing the string variable.
