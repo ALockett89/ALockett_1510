@@ -16,3 +16,9 @@ var record = "0 - 3"// This is my string variable.
 var driver = "Apple iPhone 6"// This is my string variable.
 var platform = "Xbox ONE"// This is my string variable.
 
+console.log("My current age is" + " " + myage)// My console output showing the first number variable.
+console.log("The year I was born was" + " " + yearofbirth)// My console output showing the second number variable.
+console.log("My favorite NFL team is the" + ' ' + favteam + ".")// My console output showing the string variable.
+console.log("Will the Saints lose the NFC South division? This answer is" + " " + losesouth + " " + "my friend!")// My console output showing the first boolean variable.
+console.log("The Saints win the Super Bowl! This is a" + " " + superbowl + " " + "statement & every Saints' fan knows this!")// My console output showing the second boolean variable.
+console.log
