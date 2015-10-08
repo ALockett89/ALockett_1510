@@ -17,3 +17,13 @@ var A = numofweeks * weeks[0]
 var B = numofweeks * weeks[1]
 var hoursA = A * hoursworked
 var hoursB = B * hoursworked
+
+if(numofweeks <= weeks[1]){
+    console.log("Hours you worked this pay period:" + space + hoursA)
+}else{
+    console.log("Hours you worked this pay period:" + space + hoursB)
+}
+var payrate = prompt("Next, what is your hourly pay rate? \n *Please only use numbers*")
+console.log("Your wage is $" + payrate + space + "an hour!")
+alert("Now lets calculate your next paycheck!")
+alert("Almost done!")
