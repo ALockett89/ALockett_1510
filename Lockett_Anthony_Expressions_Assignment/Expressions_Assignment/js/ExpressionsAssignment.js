@@ -27,3 +27,12 @@ var payrate = prompt("Next, what is your hourly pay rate? \n *Please only use nu
 console.log("Your wage is $" + payrate + space + "an hour!")
 alert("Now lets calculate your next paycheck!")
 alert("Almost done!")
+if(numofweeks <= weeks[1]){
+    var paycheck1 = payrate * hoursA
+    alert("Your gross income on your next paycheck will be $" + paycheck1 + "!" + "\n                 Don't spend it all in one place!")
+    console.log("Your gross income on your next paycheck will be $" + paycheck1)
+}else{
+    var paycheck2 = payrate * hoursB
+    alert("Your gross income on your next paycheck will be $" + paycheck2 + "!" + "\n                 Don't spend it all in one place!")
+    console.log("Your gross income on your next paycheck will be $" + paycheck2)
+}
