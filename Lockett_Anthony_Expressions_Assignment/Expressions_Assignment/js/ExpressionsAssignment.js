@@ -18,21 +18,21 @@ var B = numofweeks * weeks[1];// This variable multiplies the user's input by th
 var hoursA = A * hoursworked;// This variable multiplies variable "A" by the variable "hoursworked.
 var hoursB = B * hoursworked;// This variable multiplies variable "B" by the variable "hoursworked.
 
-if(numofweeks <= weeks[1]){
-    console.log("Hours you worked this pay period:" + space + hoursA);
-}else{
-    console.log("Hours you worked this pay period:" + space + hoursB);
+if(numofweeks <= weeks[1]){// This if/else statement states if the "numofweeks" variable is less than or equal to the "Weeks[1]" array index then run the following code.
+    console.log("Hours you worked this pay period:" + space + hoursA);// This outputs only if the "if" is true, to the console.
+}else{// This "else" of this if/else statement states that if the "numofweeks" variable is not less than or equal to the "Weeks[1]" array index then run the following code
+    console.log("Hours you worked this pay period:" + space + hoursB);// This outputs only if the "if" is false, to the console.
 }
-var payrate = prompt("Next, what is your hourly pay rate? \n *Please only use numbers*");
-console.log("Your wage is $" + payrate + space + "an hour!");
-alert("Now lets calculate your next paycheck!");
-alert("Almost done!");
-if(numofweeks <= weeks[1]){
-    var paycheck1 = payrate * hoursA;
-    alert("Your gross income on your next paycheck will be $" + paycheck1 + "!" + "\n                 Don't spend it all in one place!");
-    console.log("Your gross income on your next paycheck will be $" + paycheck1);
-}else{
-    var paycheck2 = payrate * hoursB;
-    alert("Your gross income on your next paycheck will be $" + paycheck2 + "!" + "\n                 Don't spend it all in one place!");
-    console.log("Your gross income on your next paycheck will be $" + paycheck2);
+var payrate = prompt("Next, what is your hourly pay rate? \n *Please only use numbers*");// This variable is a prompt that is asking for how much the user gets paid by the hour.
+console.log("Your wage is $" + payrate + space + "an hour!");// This outputs the user's input to the console.
+alert("Now lets calculate your next paycheck!");// This alert playfully lets the user know what is going on.
+alert("Almost done!");// This alert playfully lets the user know what is going on.
+if(numofweeks <= weeks[1]){// This if/else statement states if the "numofweeks" variable is less than or equal to the "Weeks[1]" array index then run the following code.
+    var paycheck1 = payrate * hoursA;// This variable multiplies the user's input by the variable "hoursA".
+    alert("Your gross income on your next paycheck will be $" + paycheck1 + "!" + "\n                 Don't spend it all in one place!");// This alert playfully lets the user know the gross income the user can expect on their next paycheck.
+    console.log("Your gross income on your next paycheck will be $" + paycheck1);// This outputs the gross income the user can expect on their next paycheck, to the console.
+}else{// This "else" of this if/else statement states that if the "numofweeks" variable is not less than or equal to the "Weeks[1]" array index then run the following code.
+    var paycheck2 = payrate * hoursB;// This variable multiplies the user's input by the variable "hoursA".
+    alert("Your gross income on your next paycheck will be $" + paycheck2 + "!" + "\n                 Don't spend it all in one place!");// This alert playfully lets the user know the gross income they can expect on their next paycheck.
+    console.log("Your gross income on your next paycheck will be $" + paycheck2);// This outputs the gross income the user can expect on their next paycheck, to the console.
 }
