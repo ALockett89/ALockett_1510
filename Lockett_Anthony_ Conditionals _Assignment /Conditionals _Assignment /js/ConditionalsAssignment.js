@@ -60,3 +60,27 @@ if(weeksBetweenPay === true) {
         console.log("Your GROSS income is $" + gross2 + "!")
     }
 }
+var taxes = true
+taxes = confirm("Do you pay taxes in Louisiana? \nPress OK for Yes \nPress CANCEL for No")
+console.log("Do you pay taxes in Louisiana:" + space + taxes);
+if(taxes === true) {
+    if(weeksBetweenPay === true){
+        var LAtax = .9
+        var taxestrue = gross1 * LAtax
+        alert("Your NET pay is $" + taxestrue + "!")
+        console.log("Your NET pay is $" + taxestrue + "!")
+    } else {
+        var LAtax = .9
+        var taxestrue = gross2 * LAtax
+        alert("Your NET pay is $" + taxestrue + "!")
+        console.log("Your NET pay is $" + taxestrue + "!")
+    }
+} else {
+    if (weeksBetweenPay === true) {
+        alert("Depending on where you live, your NET pay will be less then $" + gross1 + "!")
+        console.log("Depending on where you live, your NET pay will be less then $" + gross1 + "!")
+    } else {
+        alert("Depending on where you live, your NET pay will be less then $" + gross2 + "!")
+        console.log("Depending on where you live, your NET pay will be less then $" + gross2 + "!")
+    }
+}
