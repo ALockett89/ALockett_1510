@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c302134-fcff-4455-b941-e8a8959692f3" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lockett_Anthony_Functions _Assignment /Functions _Assignment /js/hbkbkkb.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lockett_Anthony_Functions _Assignment /Functions _Assignment /js/FunctionsAssignment.js" afterPath="$PROJECT_DIR$/Lockett_Anthony_Functions _Assignment /Functions _Assignment /js/FunctionsAssignment.js" />
     </list>
     <ignored path="ALockett_1510.iws" />
@@ -48,20 +49,8 @@
       <file leaf-file-name="FunctionsAssignment.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Lockett_Anthony_Functions _Assignment /Functions _Assignment /js/FunctionsAssignment.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.53241897">
-              <caret line="84" column="37" selection-start-line="84" selection-start-column="37" selection-end-line="84" selection-end-column="37" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hbkbkkb.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lockett_Anthony_Functions _Assignment /Functions _Assignment /js/hbkbkkb.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="104" selection-end-column="54" />
+            <state vertical-scroll-proportion="0.39276809">
+              <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -469,20 +458,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lockett_Anthony_Functions _Assignment /Functions _Assignment /js/hbkbkkb.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="104" selection-end-column="54" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lockett_Anthony_Functions _Assignment /Functions _Assignment /js/FunctionsAssignment.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53241897">
-          <caret line="84" column="37" selection-start-line="84" selection-start-column="37" selection-end-line="84" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.39276809">
+          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

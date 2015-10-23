@@ -19,7 +19,7 @@ function ageplease(){// This function asks for the users age.
         }
     }return ageprompt
 }
-console.log("User's age is" + space + findage + "!");
+console.log("User's age is" + space + findage + "!")
 function canyouplay() {// This function verifies that the user is able to play a lottery.
     if (findage < age) {
         alert("Sorry, come back when you are older");
