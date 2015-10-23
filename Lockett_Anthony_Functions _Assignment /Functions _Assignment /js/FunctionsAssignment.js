@@ -52,3 +52,48 @@ function whichlotto(){// This function helps the user decide which lottery they 
         }
     }return lottoprompt2
 }
+function truefalse(){// This function helps the next function pick which lottery to give the user.
+    if (lottochosen === 1){
+        var truefalse = 3
+    }else{
+        var truefalse = 4
+    }return truefalse
+}
+function lottonums() {// This function shows the lottery base on user input.
+    if (mathtime < 4) {
+        function flolotto() {
+            var lottotrue = [];
+            for (var i = 0; i < 5; i++) {
+                lottotrue[i] = Math.random() * (53 - 1) + 1;
+                lottotrue[i] = Math.round(lottotrue[i])
+            }
+            alert("Your Florida Lottery numbers are:" + space + lottotrue);
+            console.log("The user's Flordia Lottery numbers are:" + space + lottotrue);
+            alert("Good Luck!!!")
+        }
+        flolotto();
+    } else {
+        function powlotto() {
+            var lottofalse = [];
+            for (var i = 0; i < 5; i++) {
+                lottofalse[i] = Math.random() * (53 - 1) + 1;
+                lottofalse[i] = Math.round(lottofalse[i])
+            }
+            return lottofalse
+        }
+        powlotto();
+        var lottofalse2 = powlotto()
+        function powlotto2() {
+            var lottofalse3;
+            lottofalse3 = Math.random() * (35 - 1) + 1;
+            lottofalse3 = Math.round(lottofalse3);
+            return lottofalse3
+        }
+        powlotto2()
+        var lottofalse4 = powlotto2()
+        alert("Your Powerball Lottery numbers are:" + space + lottofalse2 + space + "and your Powerball number is:" + space + lottofalse4);
+        console.log("The user's Powerball Lottery numbers are:" + space + lottofalse2 + space + "and their Powerball number is:" + space + lottofalse4);
+        alert("Good Luck!!!");
+        powlotto2();
+    }
+}
