@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c302134-fcff-4455-b941-e8a8959692f3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lockett_Anthony_Functions _Assignment /Functions _Assignment /js/hbkbkkb.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lockett_Anthony_Functions _Assignment /Functions _Assignment /js/FunctionsAssignment.js" afterPath="$PROJECT_DIR$/Lockett_Anthony_Functions _Assignment /Functions _Assignment /js/FunctionsAssignment.js" />
     </list>
     <ignored path="ALockett_1510.iws" />
@@ -50,7 +49,7 @@
         <entry file="file://$PROJECT_DIR$/Lockett_Anthony_Functions _Assignment /Functions _Assignment /js/FunctionsAssignment.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.39276809">
-              <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+              <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -461,7 +460,7 @@
     <entry file="file://$PROJECT_DIR$/Lockett_Anthony_Functions _Assignment /Functions _Assignment /js/FunctionsAssignment.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.39276809">
-          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+          <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
