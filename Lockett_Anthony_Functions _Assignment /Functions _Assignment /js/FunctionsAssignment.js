@@ -97,3 +97,8 @@ function lottonums() {// This function shows the lottery base on user input.
         powlotto2();
     }
 }
+var findage = ageplease();// This variable calls ageplease function.
+var findage2 = canyouplay();// This variable calls canyouplayfunction.
+var lottochosen = whichlotto();// This variable calls whichlotto function.
+var mathtime = truefalse();// This variable calls truefalse function.
+lottonums();// This variable calls lottonums function.
