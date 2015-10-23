@@ -46,7 +46,7 @@ function whichlotto(){// This function helps the user decide which lottery they 
             alert("OK, you have chosen to play the Florida Lottery!\nLet's Begin!");
             console.log("User has chosen to play the Florida Lottery!")
         }else{
-            var lottoprompt2 = 2
+            var lottoprompt2 = 2;
             alert("OK, you have chosen to play the Powerball Lottery!\nLet's Begin!");
             console.log("User has chosen to play the Powerball Lottery!")
         }
@@ -82,15 +82,15 @@ function lottonums() {// This function shows the lottery base on user input.
             return lottofalse
         }
         powlotto();
-        var lottofalse2 = powlotto()
+        var lottofalse2 = powlotto();
         function powlotto2() {
             var lottofalse3;
             lottofalse3 = Math.random() * (35 - 1) + 1;
             lottofalse3 = Math.round(lottofalse3);
             return lottofalse3
         }
-        powlotto2()
-        var lottofalse4 = powlotto2()
+        powlotto2();
+        var lottofalse4 = powlotto2();
         alert("Your Powerball Lottery numbers are:" + space + lottofalse2 + space + "and your Powerball number is:" + space + lottofalse4);
         console.log("The user's Powerball Lottery numbers are:" + space + lottofalse2 + space + "and their Powerball number is:" + space + lottofalse4);
         alert("Good Luck!!!");
